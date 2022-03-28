@@ -1,5 +1,8 @@
 # Availity-Coding-Answers
 My Solutions to the Availity Fullstack Homework Assignment
+
+
+Coding Questions:
 4. Coding exercise: You are tasked to write a checker that validates the parentheses of a LISP code.  Write a program (in Java or JavaScript) which takes in a string as an input and returns true if all the parentheses in the string are properly closed and nested.
 5. Coding exercise from a frontend perspective: Healthcare providers request to be part of the Availity system.  Using React framework, create a registration user interface so healthcare providers can electronically join Availity.  The following data points should be collected:
 First and Last Name
