@@ -14,11 +14,12 @@ public class Q3 {
         openPara++;
       } else if (digits[i] == ')'){
         closePara++;
+        // if at any point there are more ')' than '(', test immediately fails
+        if(closePara > openPara){
+          return false;
+        }
       }
-      // if at any point there are more ')' than '(', test immediately fails
-      if(closePara > openPara){
-        return false;
-      }
+
     }
     // Check at the end to see if the number of '(' and ')' match.
     // Fails if they don't
